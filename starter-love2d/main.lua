@@ -7,7 +7,7 @@ local width, height = love.graphics.getDimensions()
 local quad = love.graphics.newQuad(0, 0, width, height, img:getWidth(), img:getHeight())
 local screen = Rect.new(0, 0, width - 40, height - 40)
 
-
+-- This is adding an image asset into the game via Love2D
 local spaceship = love.graphics.newImage("spaceship.png")
 local ufo = love.graphics.newImage("target.png")
 
